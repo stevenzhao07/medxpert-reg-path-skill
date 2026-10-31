@@ -12,8 +12,8 @@
 |------|-------|---------|------|
 | ① | **medxpert-reg-path-skill**（本项目） | 这个产品去哪个市场走哪条路？ | ✅ v0.1 |
 | ② | [medxpert-pre-submission-check-skill](../medxpert-pre-submission-check-skill/) | 提交前最后自查，别踩P0级坑 | ✅ v0.1 |
-| ③ | medxpert-deficiency-reply-skill | 收到发补信，怎么回才专业 | 🚧 规划中 |
-| ④ | medxpert-clinical-eval-skill | 临床评价报告怎么写 | 🚧 规划中 |
+| ③ | [medxpert-deficiency-reply-skill](../medxpert-deficiency-reply-skill/) | 收到发补信，怎么回才专业 | ✅ v0.1 |
+| ④ | [medxpert-clinical-eval-skill](../medxpert-clinical-eval-skill/) | 临床评价报告怎么写 | ✅ v0.1 |
 
 **同一个体系：LGD（有籍有证有门禁）· 同一个团队：MedXpert · 同一个风格：纯开源MIT协议**
 
@@ -65,13 +65,13 @@ MedXpert Reg Path Skill做的事情，是把注册专家的判断力变成**硬�
 ## 30秒开始
 
 ```bash
-npx skills add https://github.com/medxpert/medxpert-reg-path-skill
+npx skills add https://github.com/stevenzhao07/medxpert-reg-path-skill
 ```
 
 或者直接把这段话发给有 shell 权限的 AI Agent：
 
 ```text
-帮我安装 medxpert-reg-path-skill。请把 https://github.com/medxpert/medxpert-reg-path-skill 克隆到 ~/.claude/skills/medxpert-reg-path-skill，安装完成后检查 SKILL.md、references/、scripts/ 是否存在。
+帮我安装 medxpert-reg-path-skill。请把 https://github.com/stevenzhao07/medxpert-reg-path-skill 克隆到 ~/.claude/skills/medxpert-reg-path-skill，安装完成后检查 SKILL.md、references/、scripts/ 是否存在。
 ```
 
 安装后直接对 Agent 说：
@@ -133,8 +133,9 @@ FDA 510(k)从提交到拿证大概要多久？
 ## 路线图
 
 - [x] v0.1：中美欧三市场路径判定 + 发补风险清单
-- [ ] v0.2：产品分类判定树细化 + 临床要求判定
-- [ ] v0.3：周期费用测算模型 + 校验脚本
+- [x] v0.2：产品分类判定树细化 + 临床要求判定
+- [x] v0.3：周期费用测算模型（timeline-cost.md，输出区间值与关键节点）
+- [ ] v0.4：输出校验脚本（validate-reg-path.mjs 待开发）
 - [ ] v1.0：接入真实发补案例库 + 命中率校准
 
 ## 为什么做这个？
