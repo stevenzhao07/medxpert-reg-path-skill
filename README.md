@@ -71,7 +71,7 @@ npx skills add https://github.com/stevenzhao07/medxpert-reg-path-skill
 或者直接把这段话发给有 shell 权限的 AI Agent：
 
 ```text
-帮我安装 medxpert-reg-path-skill。请把 https://github.com/stevenzhao07/medxpert-reg-path-skill 克隆到 ~/.claude/skills/medxpert-reg-path-skill，安装完成后检查 SKILL.md、references/、scripts/ 是否存在。
+帮我安装 medxpert-reg-path-skill。请把 https://github.com/stevenzhao07/medxpert-reg-path-skill 克隆到 ~/.claude/skills/medxpert-reg-path-skill，安装完成后检查 SKILL.md、references/ 是否存在。
 ```
 
 安装后直接对 Agent 说：
