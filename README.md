@@ -1,5 +1,7 @@
 # MedXpert Reg Path Skill
 
+[![Auto Eval: LGD + OpenSSF](https://github.com/stevenzhao07/medxpert-reg-path-skill/actions/workflows/auto-eval.yml/badge.svg)](https://github.com/stevenzhao07/medxpert-reg-path-skill/actions/workflows/auto-eval.yml)
+
 > 医疗器械国际注册路径决策 · 给AI Agent装上注册专家的大脑
 
 ---
