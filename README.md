@@ -1,5 +1,3 @@
-<!-- SCORECARD-SCORE -->**OpenSSF Scorecard: 3.3/10**<!-- /SCORECARD-SCORE -->
-
 <!-- LGD-SCORE -->**LGD Trust Score: 73/100**<!-- /LGD-SCORE -->
 
 # MedXpert Reg Path Skill
