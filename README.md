@@ -1,3 +1,5 @@
+<!-- LGD-SCORE -->**LGD Trust Score: 73/100**<!-- /LGD-SCORE -->
+
 # MedXpert Reg Path Skill
 
 [![Auto Eval: LGD + OpenSSF](https://github.com/stevenzhao07/medxpert-reg-path-skill/actions/workflows/auto-eval.yml/badge.svg)](https://github.com/stevenzhao07/medxpert-reg-path-skill/actions/workflows/auto-eval.yml)
